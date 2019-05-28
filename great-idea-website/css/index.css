@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 .top-bar {
 	display: inline-block;
-	margin: auto;
+	margin: 15px;
   }
 .logo{
 	display: inline-block;
@@ -76,11 +76,11 @@ h1, h2, h3, h4, h5 {
 
 .top-content{
 	border-top: 1 px solid black;
-	display:block;
+	margin: 15px;
 }
 .bottom-content{
-	display: inline-block;
 	border-bottom: 1px solid black;
+	margin: 15px;
 }
 
 header p{
@@ -109,4 +109,8 @@ width: 45%;
 .allbottom{
 display: inline-block;
 width: 30%;
+}
+
+button{
+margin: 15px;
 }
