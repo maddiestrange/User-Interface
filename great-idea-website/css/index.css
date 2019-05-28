@@ -53,7 +53,8 @@ table {
 }
 
 html, body {
-    height: 100%;
+	height: 100%;
+	width: 876px;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -69,12 +70,13 @@ h1, h2, h3, h4, h5 {
 	margin: auto;
   }
 .logo{
-	display: inline;
+	display: inline-block;
 	margin: auto;
 }
+
 .top-content{
-	display: inline-block;
 	border-top: 1 px solid black;
+	display:block;
 }
 .bottom-content{
 	display: inline-block;
@@ -90,9 +92,17 @@ header p{
 header div{
  display: inline-block;
  width: 49%;
+ text-align: center;
 }
 
 header img{
 display: inline-block;
-width: 50%;
+width: 300px;
+height: 300px;
 }
+
+.all{
+display: inline-block;
+width: 45%;
+}
+
