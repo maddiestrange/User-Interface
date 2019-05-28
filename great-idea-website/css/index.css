@@ -78,7 +78,12 @@ h1, h2, h3, h4, h5 {
 	border-bottom: 1px solid black;
 }
 
-header{
+header p{
+ font-family: 'Bangers', cursive;
  margin: auto;
  font-size: 400%;
+}
+
+header{
+ display: inline-block;
 }
