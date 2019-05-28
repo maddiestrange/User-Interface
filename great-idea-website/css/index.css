@@ -87,6 +87,12 @@ header p{
  font-size: 400%;
 }
 
-header{
+header div{
  display: inline-block;
+ width: 49%;
+}
+
+header img{
+display: inline-block;
+width: 50%;
 }
