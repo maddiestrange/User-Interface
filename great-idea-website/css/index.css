@@ -66,9 +66,12 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 .top-bar {
 	display: inline-block;
-	margin: 10px;	
+	margin: auto;
   }
-
+.logo{
+	display: inline;
+	margin: auto;
+}
 .top-content{
 	display: inline-block;
 	border-top: 1 px solid black;
